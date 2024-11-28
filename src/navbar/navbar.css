@@ -1,0 +1,41 @@
+.brand-name{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+
+
+
+
+  
+
+  
+ 
+  .nav-link {
+    font-size: 17px;
+    
+    color: #333;
+    transition: color 0.3s ease;
+    padding-left: 20px !important; 
+  
+  }
+  
+  .nav-link:hover {
+    color: #f39c12; 
+    transform: scale(1.2)
+  }
+  
+ 
+  .dropdown-menu {
+    min-width: 150px; 
+  }
+  
+  .dropdown-item {
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-item:hover {
+    color: #fff;
+    background-color: #f39c12;
+  }
+  

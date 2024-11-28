@@ -1,0 +1,53 @@
+{
+  "register": [
+    {
+      "id": "jessy123",
+      "fullname": "jessy thambi",
+      "email": "jessythambi7@gmail.com",
+      "password": "jessy@859"
+    }
+  ],
+  "booking": [
+    {
+      "id": "6bd6",
+      "name": "anish",
+      "email": "anishthambi7@gmail.com",
+      "phonenumber": "8714189106",
+      "bookingdate": "2024-08-16",
+      "time": "10:37",
+      "numberofadults": "1",
+      "numberofchild": "3"
+    }
+  ],
+  "adminlogin": [
+    {
+      "id": "admin@123",
+      "password": "admin001"
+    }
+  ],
+  "cart": [
+    {
+      "id": "988b",
+      "username": "jessy123",
+      "cartItems": [
+        {
+          "name": "UPMA",
+          "price": 30
+        },
+        {
+          "name": "IDLI",
+          "price": 30
+        }
+      ],
+      "totalAmount": 60
+    }
+  ],
+  "contact": [
+    {
+      "id": "fb7e",
+      "name": "Anish Thambi",
+      "email": "anishthambi7@gmail.com",
+      "msg": "is there option for conducting birthday programme in restuarent?"
+    }
+  ]
+}

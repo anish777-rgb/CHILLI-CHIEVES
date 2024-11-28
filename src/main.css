@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap');
+
+
+body{
+    font-family: "Spline sans", sans-serif;
+    color: #777;
+    line-height: 1.7;
+ 
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: #222;
+}
+
+a{
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+
+a:hover{
+    color: #F58d17;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.shadow-on-hover{
+    transition: all 0.3s;
+}
+
+.shadow-on-hover:hover{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    transform: scale(1.1);
+    color:#F58d17;
+}
+
+/*btn design*/
+
+.btn{
+  border-radius: 0;
+  padding: 14px 38px;  
+}
+
+.btn-brand{
+    color: #fff;
+    font-weight: 500;
+    border-color: #F58d17;
+    background-color: #F58d17;
+}
+
+.btn-brand:hover{
+    border-color: #7c4608;
+    background-color: #7c4608;
+    color: white;
+
+}
+
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+ }
+
+
+/*slider*/
+.slide-1{
+   background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(assets/img/firstslide1.jpg)
+}
+.slide-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(assets/img/secondslide1.jpg)
+ }
+ .slide-3{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(assets/img/thirdslide1.jpg)
+ }
+
+ .carousel-control-prev,
+ .carousel-control-next{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+ }
+
+ #about .divider{
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: #F58d17;
+ }
+
+/*intro of menu*/
+
+.intro-text{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.intro-text p{
+    max-width: 500px;
+    margin: auto;
+}
+
+/*menu*/
+
+#menu .nav-pills .nav-link{
+    background-color: #fff;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #222;
+    border-radius: 50px;
+}
+
+#menu .nav-pills .nav-link.active{
+    background-color: #F58d17;
+    color: white;
+}
+
+/*Features*/
+#features{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(assets/img/stats-bg.jpg)
+}
+
+.feature{
+    border: 2px solid rgba(255, 255, 255, 0.2);
+ }
+
+ .feature-icon{
+    width: 80px;
+    height: 80px;
+    background-color: #F58d17;
+    color: white;
+    display: inline-grid;
+    align-content: center;
+    text-align: center;
+ }
+
+ /*Team members*/
+ .team-member img{
+    
+    box-shadow: -10px -10px 0 #F58d17;
+    border-radius: 100px;;
+
+ }
+
+
+
+ /*revies*/
+#reviews {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/about.jpg);
+}
+.review img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
+
+.review .quote-icon {
+    font-size: 74px;
+    color: #F58d17;
+    line-height: 1;
+}
+
+.review .stars {
+    color: #F58d17;
+}
+
+#reviews .carousel-indicators {
+    margin-bottom: -3rem;
+}
+
+/* reservation */
+#reservation .form-control {
+    border-radius: 0;
+}
+
+#reservation .form-control:focus {
+    box-shadow: none;
+    border-color: #F58d17;
+}
+
+#reservation input.form-control {
+    height: 47px;
+}
+  
+
+/* Footer */
+footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/img/reservation.jpg);
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.footer-top {
+    margin-bottom: 30px;
+}
+
+footer p,
+footer a{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+footer .social-links a {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+footer img {
+    max-width: 175px;
+}
+
+.footer-bottom {
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+    .navbar a {
+        color: #000;
+        text-decoration: none;
+        padding: 10px;
+        border-bottom: 3px solid transparent;
+    }
+    
+    /* Style for the active link */
+    .navbar a.active {
+        border-bottom: 3px solid yellow;
+    }
+    
+    /* Style for the hover effect */
+    .navbar a:hover {
+        border-bottom: 3px solid yellow;
+    }
+
+    .row .col-md-4 {
+        margin-bottom: 2rem;
+    }
+    
+    /* Add hover effect to the images */
+    .glightbox:hover {
+        opacity: 0.8;
+    }
+
+    .img-fluid{
+        transition: 0.2s;
+    }
+
+
+    .img-fluid:hover{
+        transform: translate(90deg);
+    }
+
+    .bg-image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+      }
+
+      #scrollToTopBtn {
+        position: fixed;
+        bottom: 5px;
+        right: 5px;
+        z-index: 99;
+      }
+      
+      #scrollToTopBtn.d-none {
+        display: none;
+      }
+      

@@ -1,0 +1,8 @@
+.bgbooking{
+    background-image: url(../images/reservetable.jpg);
+ background-size: contain;
+    height: 120vh;
+    display: grid;
+   
+   
+}

@@ -1,0 +1,17 @@
+.adminloginbg{
+    background-image: url(../images/adminloginbg.jpg);
+    height: 120vh;
+    background-size: cover;
+    display: grid;
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat; 
+               
+    width: 100%;   
+    
+   
+}
+
+#adminname,#adminpassword{
+    margin-top: 5px;
+}

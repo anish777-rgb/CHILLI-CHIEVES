@@ -1,0 +1,68 @@
+.card-menu{
+ margin-top: 30px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.menubg{
+    background-color: rgb(237, 232, 232);
+    height:auto;
+    display: grid;
+    
+}
+
+
+
+.footer{
+    bottom: 0;
+    position:relative;
+    width: 100%;
+    
+    
+    
+  }
+  
+  
+  .footer-bottom{
+    background-color: #F58d17;
+    height: auto;
+  }
+  
+  
+  .footer-top {
+    margin-bottom: 30px;
+   
+  }
+  
+  footer p,
+  footer a{
+    color: rgba(255, 255, 255, 0.75);
+  }
+  
+  footer .social-links a {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  footer img {
+    max-width: 175px;
+  }
+  
+  .footer-bottom {
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

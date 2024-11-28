@@ -1,0 +1,192 @@
+.homebg{
+    background-color: #fff;
+    height: auto;
+}
+
+
+.btn{
+    border-radius: 0;
+    padding: 14px 38px;  
+  }
+  
+  .btn-brand{
+      color: #fff;
+      font-weight: 500;
+      border-color: #F58d17;
+      background-color: #F58d17;
+  }
+  
+  .btn-brand:hover{
+      border-color: #7c4608;
+      background-color: #7c4608;
+      color: white;
+  
+  }
+
+
+  #about{
+    background-color: #fff;
+    margin-top: 200px;
+   
+  }
+
+  #aboutimg{
+    border: 10px solid rgb(187, 187, 187);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+.whychooseus{
+  margin-top: 200px;
+  background-image: url('../images/why.png');
+ min-height: 600px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+}
+
+
+.featured-dishes{
+  margin-top: 200px;
+  
+  
+}
+
+
+.card-dishes{
+  background-color: #F58d17;
+  transition: background-color 0.2s ease,transform 0.2s ease ;
+}
+
+.card-dishes:hover{
+  transform: scale(1.05);
+}
+
+.senior-chefs-section{
+  margin-top: 100px;
+  
+  
+}
+
+
+.senior-chef-card{
+  transition: background-color 0.2s ease,transform 0.2s ease;
+}
+
+
+.senior-chef-card:hover{
+  transform: scale(1.05);
+  box-shadow: 5px 5px 10px;
+}
+
+
+
+.photogallery{
+ margin-top: 100px;
+}
+
+.testimonial-card{
+  
+  margin: 100px auto;
+}
+
+
+.review{
+  background-color:#ebeaea;
+  margin-top: 200px;
+  
+}
+
+
+
+
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-color: darkgoldenrod;
+}
+
+.testimonial-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.quote-icon {
+  font-size: 36px;
+  color: #007bff;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color:  #F58d17;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+  font-size: 24px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+
+
+
+.footer{
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  
+  
+  
+}
+
+
+.footer-bottom{
+  background-color: #F58d17;
+  height: auto;
+}
+
+
+.footer-top {
+  margin-bottom: 30px;
+ 
+}
+
+footer p,
+footer a{
+  color: rgba(255, 255, 255, 0.75);
+}
+
+footer .social-links a {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+footer img {
+  max-width: 175px;
+}
+
+.footer-bottom {
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
